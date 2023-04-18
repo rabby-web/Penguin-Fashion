@@ -114,6 +114,15 @@ nav img {
     display: flex;
     justify-content: space-between;
 }
-.footer-right {
-    
+.footer-right img{
+    width: 90%;
+}
+.footer-left {
+    width: 90%;
+}
+.box {
+    display: flex;
+}
+.box img {
+    width: 3rem;
 }
