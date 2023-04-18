@@ -115,14 +115,14 @@ nav img {
     justify-content: space-between;
 }
 .footer-right img{
-    width: 90%;
+    width: 80%;
 }
 .footer-left {
-    width: 90%;
+    width: 100%;
 }
 .box {
     display: flex;
-    margin: 0.3rem;
+    margin: 1.3rem 0.3rem;
     padding: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
