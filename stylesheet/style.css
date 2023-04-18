@@ -89,6 +89,7 @@ nav img {
 .jacket-card {
     margin: 1rem 0;
     padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .women-jacket-container {
     display: grid;
@@ -130,3 +131,16 @@ nav img {
     width: 5rem;
     margin-right: 0.5rem;
 }
+/* ==================
+    @media (min-width: 30em) and (max-width: 50em)
+    ================= */
+@media (min-width: 0) and (max-width: 768px) {
+    
+    .nav-item {
+        display: none;
+    }
+    nav {
+        
+        margin: 0 auto;
+    }
+  }
