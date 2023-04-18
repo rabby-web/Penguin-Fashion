@@ -55,13 +55,11 @@ nav img {
 }
 .header-left h2{
     line-height: 3rem;
+    font-size: 2.2rem;
+    font-weight: 700;
 }
 .header-left p{
     line-height: 2rem;
-}
-.header-left h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
 }
 .header-left .orang-color {
     color: orange;
@@ -135,12 +133,30 @@ nav img {
     @media (min-width: 30em) and (max-width: 50em)
     ================= */
 @media (min-width: 0) and (max-width: 768px) {
-    
     .nav-item {
         display: none;
     }
     nav {
-        
+        display: flex;
+        margin: 1rem 4rem;
+    }
+    /* ==================
+    header section
+    ================= */
+    .header-section {
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin: 1rem 2rem; */
         margin: 0 auto;
+        padding: 1rem;
+        text-align: center;
+    }
+    .header-left h2{
+        line-height: 3rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .header-left p{
+        line-height: 2rem;
     }
   }
