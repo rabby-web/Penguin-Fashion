@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline-offset: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s linear;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    /* overflow-x: hidden; */
+}
+.btn {
+    background-color: rgb(175, 223, 31);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.btn img {
+    width: 2rem;
+}
+
+/* ==================
+    nav section
+    ================= */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 3rem;
+}
+.nav-item {
+    display: flex;
+}
+.nav-item li {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(30, 28, 28);
+}
+nav img {
+    width: 25rem;
+}
+
+/* ==================
+    header section
+    ================= */
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.3rem 5rem;
+}
+.header-left h2{
+    line-height: 3rem;
+}
+.header-left p{
+    line-height: 2rem;
+}
+.header-left h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.header-left .orang-color {
+    color: orange;
+}
+/* ==================
+    jacket section
+    ================= */
+.card-price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: orange;
+}
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 0.8rem; */
+}
+.img-card img {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(171, 164, 164);
+    border-radius: 1.2rem;
+}
+.jacket-card {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.women-jacket-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.women-jacket {
+    margin: 1rem 4rem;
+}
+.card-info {
+    padding: 0.5rem 0;
+    margin: 0.6rem 0;
+}
+.card-info h2 {
+    line-height: 3rem;
+}
+
+/* ==================
+    footer section
+    ================= */
+.footer-container {
+    margin: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right {
+    
+}
