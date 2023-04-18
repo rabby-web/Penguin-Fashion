@@ -155,8 +155,16 @@ nav img {
         line-height: 3rem;
         font-size: 2.2rem;
         font-weight: 600;
+        margin-top: 0.5rem;
     }
     .header-left p{
         line-height: 2rem;
+    }
+    .btn-main{
+        margin: 0.2rem auto;
+    }
+    nav img {
+        width: 15rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
   }
