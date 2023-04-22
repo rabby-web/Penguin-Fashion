@@ -193,6 +193,9 @@ nav img {
         padding: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
+    .copyright{
+        text-align: center;
+    }
   }
   h5{
     text-align: center;
